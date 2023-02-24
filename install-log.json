@@ -1,0 +1,88 @@
+{"timestamp":"2022-12-12T09:38:48.346Z","level":"info","moduleName":"InstallerWinProcess","message":"[ 'trying to connect to the ipc server' ]"}
+{"timestamp":"2022-12-12T09:38:48.346Z","level":"debug","moduleName":"UnityIPCClient","message":"[ 'connecting to IPC Server Unity-hubInstallServer' ]"}
+{"timestamp":"2022-12-12T09:38:48.393Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"C:\\\\\\\\Program Files\\\\\\\\Unity\\\\\\\\Hub\\\\\\\\Editor\",\"destinationFilename\":\"UnitySetup64-2021.3.15f1.exe\",\"installerFilename\":\"UnitySetup64-2021.3.15f1.exe\",\"installerPath\":\"C:\\\\\\\\Users\\\\\\\\arnau\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\unityhub-edabcee0-79fd-11ed-925e-0574f1cffb9e\",\"installerSizeInBytes\":2423766016,\"type\":0,\"uid\":\"2021.3.15f1\",\"editorVersion\":\"2021.3.15f1\"}'\n]"}
+{"timestamp":"2022-12-12T09:38:48.394Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-12-12T09:38:48.395Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-12-12T09:38:48.395Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor' ]"}
+{"timestamp":"2022-12-12T09:38:48.408Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-12-12T09:38:48.409Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-12-12T09:38:48.410Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 2423766016 bytes / 2.26 GB...' ]"}
+{"timestamp":"2022-12-12T09:38:48.410Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 413907410944 bytes' ]"}
+{"timestamp":"2022-12-12T09:38:48.411Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:38:48.411Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-12-12T09:38:48.411Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: C:\\\\Users\\\\arnau\\\\AppData\\\\Local\\\\Temp\\\\unityhub-edabcee0-79fd-11ed-925e-0574f1cffb9e\\\\UnitySetup64-2021.3.15f1.exe'\n]"}
+{"timestamp":"2022-12-12T09:38:48.412Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:38:48.413Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-12-12T09:38:48.413Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR' ]"}
+{"timestamp":"2022-12-12T09:38:48.413Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying presence of an existing editor installation...' ]"}
+{"timestamp":"2022-12-12T09:38:48.413Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying presence of an Editor binary in path: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1\\\\Editor\\\\Unity.exe'\n]"}
+{"timestamp":"2022-12-12T09:38:48.414Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Existing Editor Installation Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:38:48.415Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-12-12T09:38:48.415Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-12-12T09:38:48.415Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-12-12T09:38:48.415Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-12-12T09:38:48.424Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeEditorInstallation' ]"}
+{"timestamp":"2022-12-12T09:38:48.469Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-12-12T09:38:48.470Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromExe' ]"}
+{"timestamp":"2022-12-12T09:38:48.470Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[\n  'install C:\\\\Users\\\\arnau\\\\AppData\\\\Local\\\\Temp\\\\unityhub-edabcee0-79fd-11ed-925e-0574f1cffb9e\\\\UnitySetup64-2021.3.15f1.exe /S /D=C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1'\n]"}
+{"timestamp":"2022-12-12T09:43:57.260Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterEditorInstallation' ]"}
+{"timestamp":"2022-12-12T09:43:57.260Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'Check DotNet Core Prerequisites, os release',\n  [ '10', '0', '22621' ]\n]"}
+{"timestamp":"2022-12-12T09:43:57.260Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'major', 10, 'minor', 0 ]"}
+{"timestamp":"2022-12-12T09:43:57.261Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'shouldInstallKB2999226: ',\n  false,\n  'shouldInstallKB2533623: ',\n  false\n]"}
+{"timestamp":"2022-12-12T09:43:57.266Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Creating modules.json file at: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1\\\\modules.json'\n]"}
+{"timestamp":"2022-12-12T09:44:01.422Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"C:\\\\\\\\Program Files\\\\\\\\Unity\\\\\\\\Hub\\\\\\\\Editor\",\"destinationFilename\":\"UnitySetup-WebGL-Support-for-Editor-2021.3.15f1.exe\",\"installerFilename\":\"UnitySetup-WebGL-Support-for-Editor-2021.3.15f1.exe\",\"installerPath\":\"C:\\\\\\\\Users\\\\\\\\arnau\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\unityhub-edaedc20-79fd-11ed-925e-0574f1cffb9e\",\"installerSizeInBytes\":344741888,\"type\":1,\"uid\":\"webgl\",\"editorVersion\":\"2021.3.15f1\",\"moduleDestination\":\"C:\\\\\\\\Program Files\\\\\\\\Unity\\\\\\\\Hub\\\\\\\\Editor\\\\\\\\2021.3.15f1\"}'\n]"}
+{"timestamp":"2022-12-12T09:44:01.422Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-12-12T09:44:01.423Z","level":"debug","moduleName":"InstallerWinProcess","message":"[\n  'Validation strategy: {\"destination\":\"C:\\\\\\\\Program Files\\\\\\\\Unity\\\\\\\\Hub\\\\\\\\Editor\",\"destinationFilename\":\"UnityDocumentation.zip\",\"installerFilename\":\"UnityDocumentation.zip\",\"installerPath\":\"C:\\\\\\\\Users\\\\\\\\arnau\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\unityhub-edafed90-79fd-11ed-925e-0574f1cffb9e\",\"installerSizeInBytes\":326562959,\"type\":1,\"uid\":\"documentation\",\"editorVersion\":\"2021.3.15f1\",\"moduleDestination\":\"C:\\\\\\\\Program Files\\\\\\\\Unity\\\\\\\\Hub\\\\\\\\Editor\\\\\\\\2021.3.15f1\\\\\\\\Editor\\\\\\\\Data\"}'\n]"}
+{"timestamp":"2022-12-12T09:44:01.423Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2022-12-12T09:44:01.423Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-12-12T09:44:01.423Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor' ]"}
+{"timestamp":"2022-12-12T09:44:01.423Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2022-12-12T09:44:01.424Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor' ]"}
+{"timestamp":"2022-12-12T09:44:01.425Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.425Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-12-12T09:44:01.425Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 344741888 bytes / 328.77 MB...' ]"}
+{"timestamp":"2022-12-12T09:44:01.426Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 407688790016 bytes' ]"}
+{"timestamp":"2022-12-12T09:44:01.426Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.426Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-12-12T09:44:01.426Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: C:\\\\Users\\\\arnau\\\\AppData\\\\Local\\\\Temp\\\\unityhub-edaedc20-79fd-11ed-925e-0574f1cffb9e\\\\UnitySetup-WebGL-Support-for-Editor-2021.3.15f1.exe'\n]"}
+{"timestamp":"2022-12-12T09:44:01.426Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.427Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2022-12-12T09:44:01.427Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 326562959 bytes / 311.43 MB...' ]"}
+{"timestamp":"2022-12-12T09:44:01.427Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available disk Space: 407688818688 bytes' ]"}
+{"timestamp":"2022-12-12T09:44:01.427Z","level":"debug","moduleName":"Disk Validation Strategy","message":"[ 'Available Disk Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.427Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2022-12-12T09:44:01.427Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying read and write accessibility to installer source path: C:\\\\Users\\\\arnau\\\\AppData\\\\Local\\\\Temp\\\\unityhub-edafed90-79fd-11ed-925e-0574f1cffb9e\\\\UnityDocumentation.zip'\n]"}
+{"timestamp":"2022-12-12T09:44:01.428Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.428Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-12-12T09:44:01.428Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2022-12-12T09:44:01.429Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Skipping module destination check for all Windows binary installers: webgl'\n]"}
+{"timestamp":"2022-12-12T09:44:01.429Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying selected value of module in modules.json file at C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1\\\\modules.json'\n]"}
+{"timestamp":"2022-12-12T09:44:01.430Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.430Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2022-12-12T09:44:01.430Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2022-12-12T09:44:01.430Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Skipping module destination check for whitelisted item: documentation'\n]"}
+{"timestamp":"2022-12-12T09:44:01.430Z","level":"info","moduleName":"Disk Validation Strategy","message":"[\n  'Verifying selected value of module in modules.json file at C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1\\\\modules.json'\n]"}
+{"timestamp":"2022-12-12T09:44:01.433Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json File Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.433Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-12-12T09:44:01.433Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-12-12T09:44:01.433Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.433Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.434Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json File Check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.434Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2022-12-12T09:44:01.435Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2022-12-12T09:44:01.435Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.435Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2022-12-12T09:44:01.460Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeModuleInstallation' ]"}
+{"timestamp":"2022-12-12T09:44:01.460Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'Creating the folder of webgl, if needed: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1'\n]"}
+{"timestamp":"2022-12-12T09:44:01.461Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'beforeModuleInstallation' ]"}
+{"timestamp":"2022-12-12T09:44:01.461Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[\n  'Creating the folder of documentation, if needed: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1/Editor/Data'\n]"}
+{"timestamp":"2022-12-12T09:44:01.461Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-12-12T09:44:01.461Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromExe' ]"}
+{"timestamp":"2022-12-12T09:44:01.461Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[\n  'install C:\\\\Users\\\\arnau\\\\AppData\\\\Local\\\\Temp\\\\unityhub-edaedc20-79fd-11ed-925e-0574f1cffb9e\\\\UnitySetup-WebGL-Support-for-Editor-2021.3.15f1.exe /S /D=C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1'\n]"}
+{"timestamp":"2022-12-12T09:44:01.478Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'execInstaller' ]"}
+{"timestamp":"2022-12-12T09:44:01.478Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'installFromZip' ]"}
+{"timestamp":"2022-12-12T09:46:26.736Z","level":"info","moduleName":"UnityInstallStepsWindows","message":"[ 'unzip finished' ]"}
+{"timestamp":"2022-12-12T09:46:26.737Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterModuleInstallation' ]"}
+{"timestamp":"2022-12-12T09:46:26.743Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Updating modules.json file at: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1\\\\modules.json'\n]"}
+{"timestamp":"2022-12-12T09:46:52.001Z","level":"debug","moduleName":"UnityInstallStepsWindows","message":"[ 'afterModuleInstallation' ]"}
+{"timestamp":"2022-12-12T09:46:52.003Z","level":"info","moduleName":"InstallerWinProcess","message":"[\n  'Updating modules.json file at: C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.15f1\\\\modules.json'\n]"}
